@@ -495,13 +495,13 @@ input[type="date"].label-input {
 }
 
 #span-rest {
-  background-color: rgba(235, 209, 158, 0.46);
-  color: #ffe606;
+  background: rgba(236, 170, 0, 0.3);
+  color: #F9AC16;
 }
 
 #span-travel {
-  background-color: rgba(49, 216, 116, 0.46);
-  color: #31d874;
+  background: rgba(49, 216, 116, 0.3);
+  color: #31D874;
 }
 
 .list-testimonials p {

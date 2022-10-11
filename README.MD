@@ -12,12 +12,15 @@
 
 <br>
 
-<p style="font-weight: 600">Utilizamos a ferramenta firebase | FireStore para importar o login e senha do usuário. Login do usuário desenvolvido em popUp onde, ao clicar no perfil, a janela de login abrirá.</p>
+<p style="font-weight: 600">Utilizamos a ferramenta firebase | FireStore para importar o login e senha do usuário. Login do usuário desenvolvido em popUp onde, ao clicar no perfil, a janela de login abrirá.
+</p>
 <br>
 
 # Rotas
 - Home: /index.html
 - Logins cadastrados: /logins.html
+- Padrão MVC: Coletamos os dados do cliente através do FireStore e retornamos pela página: logins.html.
+- Acrescentamos o Vlibras e facilitamos o acesso dos PCD's no site.
 
 
 ## Tecnologias
