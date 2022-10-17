@@ -689,6 +689,14 @@ input[type="date"].label-input {
   padding-right: 32px;
 }
 
+.rodape_direitos a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.rodape_direitos a:hover{
+  color: #f97316;
+}
 /* ========== Popup Login ==========*/
 .popup-login {
   position: fixed;
