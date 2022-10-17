@@ -19,8 +19,17 @@
 # Rotas
 - Home: /index.html
 - Logins cadastrados: /logins.html
-- Padrão MVC: Coletamos os dados do cliente através do FireStore e retornamos pela página: logins.html.
-- Acrescentamos o Vlibras e facilitamos o acesso dos PCD's no site.
+- O Gulliver Traveller conta com uma interface dinâmica para o usuário, no qual todas as informações são encontradas na home.
+
+Banco de dados: FireStore
+Front-end: Html, CSS, Js
+Back-end: API
+Hospedagem na nuvem: Vercel
+Integração: API Google Maps
+Usabilidade: ok
+Acessibilidade: Vlibras
+
+//Acréscimo da política de Privacidade
 
 
 ## Tecnologias
