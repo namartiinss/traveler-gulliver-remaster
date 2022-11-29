@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./assets/img/logo.png" />
-    <link rel="stylesheet" href="./assets/styles/home.css" />
-    <title>Gulliver Traveller</title>
-  </head>
 
-  <body>
-    <div vw class="enabled">
-      <div vw-access-button class="active"></div>
-      <div vw-plugin-wrapper>
-        <div class="vw-plugin-top-wrapper"></div>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./assets/img/logo.png" />
+  <link rel="stylesheet" href="./assets/styles/home.css" />
+  <title>Gulliver Traveller</title>
+</head>
+
+<body>
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
     </div>
-    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-    <script>
-      new window.VLibras.Widget('https://vlibras.gov.br/app');
-    </script>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
 
-    <div class="banner-topo">
-      <header class="header-desktop">
+  <div class="banner-topo">
+    <header class="header-desktop">
         <div class="logo">
           <img src="./assets/img/logo.png" alt="Logotipo Gulliver Traveller" />
           <h4>Gulliver Traveller</h4>
@@ -36,449 +37,336 @@
               <img src="./assets/img/icons/bell.svg" alt="Notificações" />
             </li>
             <li>
-              <img
-                src="./assets/img/icons/perfil.svg"
-                alt="Perfil do usuário"
-              />
+              <img src="./assets/img/icons/perfil.svg" alt="Perfil do usuário" />
             </li>
           </ul>
-        </div>
-      </header>
-      <div class="container_mobile">
-        <div class="menu__mobile">
-          <button class="abrirModal">
-            <img src="./assets/img/icons/menu-mobile.svg" alt="" />
-          </button>
-          <div class="modal__menu">
-            <div>
-              <div class="modal_perfil">
-                <p><a href="#">Entre </a> ou <a href="#"> Cadastre-se</a></p>
-                <button class="fecharModal">
-                  <img src="./assets/img/icons/close.svg" alt="" />
-                </button>
-              </div>
-              <ul>
-                <li><a href="#">Favoritos</a></li>
-                <li><a href="#">Pacotes</a></li>
-                <li><a href="#">hotéis</a></li>
-              </ul>
+
+    </header>
+    <div class="container_mobile">
+      <div class="menu__mobile">
+        <button class="abrirModal">
+          <img src="./assets/img/icons/menu-mobile.svg" alt="" />
+        </button>
+        <div class="modal__menu">
+          <div>
+            <div class="modal_perfil">
+              <p><a href="#">Entre </a> ou <a href="#"> Cadastre-se</a></p>
+              <button class="fecharModal">
+                <img src="./assets/img/icons/close.svg" alt="" />
+              </button>
             </div>
-            <div class="modal_rodape">
-              <div class="logo_rodape">
-                <img
-                  src="./assets/img/icons/logo-mobile.svg"
-                  alt="Logotipo Gulliver Traveller"
-                />
-              </div>
+            <ul>
+              <li><a href="#">Favoritos</a></li>
+              <li><a href="#">Pacotes</a></li>
+              <li><a href="#">hotéis</a></li>
+            </ul>
+          </div>
+          <div class="modal_rodape">
+            <div class="logo_rodape">
+              <img src="./assets/img/icons/logo-mobile.svg" alt="Logotipo Gulliver Traveller" />
             </div>
           </div>
         </div>
-      </div>
-      <div class="title">
-        <h2>Encontre o melhor lugar para aproveitar o seu tempo</h2>
       </div>
     </div>
-    <section class="container-floating-menu">
-      <div class="floating-menu">
-        <div class="floating-items1">
-          <h4>Local</h4>
-          <input
-            class="label-input"
-            type="text"
-            placeholder="Para onde você vai?"
-          />
-        </div>
-        <div class="floating-items2">
-          <h4>Data de ida</h4>
-          <div class="floating-items">
-            <img src="./assets/img/icons/calender.svg" alt="Calendario ida" />
-            <input
-              class="label-input"
-              type="date"
-              name="startDate"
-              placeholder="Ida"
-            />
-          </div>
-        </div>
-        <div class="floating-items3">
-          <h4>Data de volta</h4>
-          <div class="floating-items">
-            <img src="./assets/img/icons/calender.svg" alt="Calendario volta" />
-            <input
-              class="label-input"
-              type="date"
-              name="startDate"
-              placeholder="Volta"
-            />
-          </div>
-        </div>
-        <div class="floating-items4">
-          <h4>Quantidade de pessoas</h4>
-          <div class="floating-items">
-            <img src="./assets/img/icons/peoples.svg" alt="Icones de pessoas" />
-            <input
-              class="label-input"
-              type="number"
-              placeholder="Quantidades de pessoas"
-            />
-          </div>
-        </div>
-        <button>
-          <svg
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M10.875 18.75C15.2242 18.75 18.75 15.2242 18.75 10.875C18.75 6.52576 15.2242 3 10.875 3C6.52576 3 3 6.52576 3 10.875C3 15.2242 6.52576 18.75 10.875 18.75Z"
-              stroke="white"
-              stroke-width="2.25"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M16.4434 16.4437L20.9996 21"
-              stroke="white"
-              stroke-width="2.25"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
-        </button>
+    <div class="title">
+      <h2>Encontre o melhor lugar para aproveitar o seu tempo</h2>
+    </div>
+  </div>
+  <section class="container-floating-menu">
+    <div class="floating-menu">
+      <div class="floating-items1">
+        <h4>Local</h4>
+        <input class="label-input" type="text" placeholder="Para onde você vai?" />
       </div>
-    </section>
-    <section class="containerGridSale">
-      <div class="grid">
-        <div class="grid-photos">
-          <div>
+      <div class="floating-items2">
+        <h4>Data de ida</h4>
+        <div class="floating-items">
+          <img src="./assets/img/icons/calender.svg" alt="Calendario ida" />
+          <input class="label-input" type="date" name="startDate" placeholder="Ida" />
+        </div>
+      </div>
+      <div class="floating-items3">
+        <h4>Data de volta</h4>
+        <div class="floating-items">
+          <img src="./assets/img/icons/calender.svg" alt="Calendario volta" />
+          <input class="label-input" type="date" name="startDate" placeholder="Volta" />
+        </div>
+      </div>
+      <div class="floating-items4">
+        <h4>Quantidade de pessoas</h4>
+        <div class="floating-items">
+          <img src="./assets/img/icons/peoples.svg" alt="Icones de pessoas" />
+          <input class="label-input" type="number" placeholder="Quantidades de pessoas" />
+        </div>
+      </div>
+      <button>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M10.875 18.75C15.2242 18.75 18.75 15.2242 18.75 10.875C18.75 6.52576 15.2242 3 10.875 3C6.52576 3 3 6.52576 3 10.875C3 15.2242 6.52576 18.75 10.875 18.75Z"
+            stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M16.4434 16.4437L20.9996 21" stroke="white" stroke-width="2.25" stroke-linecap="round"
+            stroke-linejoin="round" />
+        </svg>
+      </button>
+    </div>
+  </section>
+  <section class="containerGridSale">
+    <div class="grid">
+      <div class="grid-photos">
+        <div>
+          <p>Coleção</p>
+          <h2>Cidades mais populares</h2>
+          <button class="button-orange">Mostrar tudo</button>
+        </div>
+      </div>
+      <div class="miniGrid">
+        <div class="gridImg">
+          <div class="grid-text">
             <p>Coleção</p>
-            <h2>Cidades mais populares</h2>
+            <h2>Os melhores hoteis</h2>
             <button class="button-orange">Mostrar tudo</button>
           </div>
         </div>
-        <div class="miniGrid">
-          <div class="gridImg">
-            <div class="grid-text">
-              <p>Coleção</p>
-              <h2>Os melhores hoteis</h2>
-              <button class="button-orange">Mostrar tudo</button>
-            </div>
-          </div>
-          <div class="gridImg2">
-            <div class="grid-text2">
-              <p>Coleção</p>
-              <h2>Conheça a melhor Gastronomia</h2>
-              <button class="button-orange">Mostrar tudo</button>
-            </div>
+        <div class="gridImg2">
+          <div class="grid-text2">
+            <p>Coleção</p>
+            <h2>Conheça a melhor Gastronomia</h2>
+            <button class="button-orange">Mostrar tudo</button>
           </div>
         </div>
       </div>
-    </section>
-    <section class="products">
-      <div class="list-product">
-        <div class="title-products">
-          <h2>Lugares para conhecer</h2>
-          <a href="#" class="button-orange">Conhecer mais</a>
-        </div>
-        <div class="scroll-mobile-product">
-          <div class="container-product">
-            <a class="card-product">
-              <img
-                src="./assets/img/camposDoJordao.png"
-                alt="Imagem de Campos do Jordão"
-              />
-              <h3>Campos do Jordão</h3>
-              <p>São Paulo</p>
-            </a>
-            <a class="card-product">
-              <img
-                src="./assets/img/maragogi.png"
-                alt="Imagem da praia de Maragogi Alagoas"
-              />
-              <h3>Maragogi</h3>
-              <p>Alagoas</p>
-            </a>
-            <a class="card-product">
-              <img src="./assets/img/pancas.jpg" alt="Imagem de Pancas" />
-              <h3>Pancas</h3>
-              <p>Espírito Santo</p>
-            </a>
-          </div>
+    </div>
+  </section>
+  <section class="products">
+    <div class="list-product">
+      <div class="title-products">
+        <h2>Lugares para conhecer</h2>
+        <a href="#" class="button-orange">Conhecer mais</a>
+      </div>
+      <div class="scroll-mobile-product">
+        <div class="container-product">
+          <a class="card-product">
+            <img src="./assets/img/camposDoJordao.png" alt="Imagem de Campos do Jordão" />
+            <h3>Campos do Jordão</h3>
+            <p>São Paulo</p>
+          </a>
+          <a class="card-product">
+            <img src="./assets/img/maragogi.png" alt="Imagem da praia de Maragogi Alagoas" />
+            <h3>Maragogi</h3>
+            <p>Alagoas</p>
+          </a>
+          <a class="card-product">
+            <img src="./assets/img/pancas.jpg" alt="Imagem de Pancas" />
+            <h3>Pancas</h3>
+            <p>Espírito Santo</p>
+          </a>
         </div>
       </div>
-      <div class="list-product">
-        <div class="title-products">
-          <h2>Os melhores hotéis</h2>
-          <a class="button-orange">Conhecer mais</a>
-        </div>
-        <div class="scroll-mobile-product">
-          <div class="container-product">
-            <a class="card-product">
-              <img
-                src="./assets/img/summerville.png"
-                alt="Imagem de summerville Resort"
-              />
-              <h3>Summerville Resort</h3>
-              <p>Porto de Galinhas</p>
-            </a>
-            <a class="card-product">
-              <img
-                src="./assets/img/portalDosGanchos.png"
-                alt="Imagem de Hotel Portal dos Ganchos"
-              />
-              <h3>Portal dos Ganchos</h3>
-              <p>Santa Catarina</p>
-            </a>
-            <a  class="card-product">
-              <img
-                src="./assets/img/palacioTangara.png"
-                alt="Imagem de hotel Palacio Tangará"
-              />
-              <h3>Tangará</h3>
-              <p>São Paulo</p>
-            </a>
-          </div>
+    </div>
+    <div class="list-product">
+      <div class="title-products">
+        <h2>Os melhores hotéis</h2>
+        <a class="button-orange">Conhecer mais</a>
+      </div>
+      <div class="scroll-mobile-product">
+        <div class="container-product">
+          <a class="card-product">
+            <img src="./assets/img/summerville.png" alt="Imagem de summerville Resort" />
+            <h3>Summerville Resort</h3>
+            <p>Porto de Galinhas</p>
+          </a>
+          <a class="card-product">
+            <img src="./assets/img/portalDosGanchos.png" alt="Imagem de Hotel Portal dos Ganchos" />
+            <h3>Portal dos Ganchos</h3>
+            <p>Santa Catarina</p>
+          </a>
+          <a class="card-product">
+            <img src="./assets/img/palacioTangara.png" alt="Imagem de hotel Palacio Tangará" />
+            <h3>Tangará</h3>
+            <p>São Paulo</p>
+          </a>
         </div>
       </div>
-      <div class="list-product">
-        <div class="title-products">
-          <h2>Conheça a melhor Gastronomia</h2>
-          <a href="#" class="button-orange">Conhecer mais</a>
-        </div>
-        <div class="scroll-mobile-product">
-          <div class="container-product">
-            <a class="card-product">
-              <img
-                src="./assets/img/aCasaDoPorco.png"
-                alt="Imagem do restaurante A casa do porco"
-              />
-              <h3>A Casa do Porco</h3>
-              <p>São Paulo</p>
-            </a>
-            <a class="card-product">
-              <img
-                src="./assets/img/oteque.png"
-                alt="Imagem do restaurante oteque"
-              />
-              <h3>Oteque</h3>
-              <p>Rio de janeiro</p>
-            </a>
-            <a class="card-product">
-              <img
-                src="./assets/img/mani.png"
-                alt="Imagem do restaurante Maní"
-              />
-              <h3>Maní</h3>
-              <p>São Paulo</p>
-            </a>
-          </div>
+    </div>
+    <div class="list-product">
+      <div class="title-products">
+        <h2>Conheça a melhor Gastronomia</h2>
+        <a href="#" class="button-orange">Conhecer mais</a>
+      </div>
+      <div class="scroll-mobile-product">
+        <div class="container-product">
+          <a class="card-product">
+            <img src="./assets/img/aCasaDoPorco.png" alt="Imagem do restaurante A casa do porco" />
+            <h3>A Casa do Porco</h3>
+            <p>São Paulo</p>
+          </a>
+          <a class="card-product">
+            <img src="./assets/img/oteque.png" alt="Imagem do restaurante oteque" />
+            <h3>Oteque</h3>
+            <p>Rio de janeiro</p>
+          </a>
+          <a class="card-product">
+            <img src="./assets/img/mani.png" alt="Imagem do restaurante Maní" />
+            <h3>Maní</h3>
+            <p>São Paulo</p>
+          </a>
         </div>
       </div>
-    </section>
-    <section class="testimonials">
-      <div class="container-testimonials">
-        <div class="cards-testimonials active">
-          <div class="list-testimonials">
-            <p id="text-mobile">
-              <span>Hotel</span> • 19 de Setembro de 2022 - Hotel Fazenda Poços
-              de Caldas
-            </p>
-            <h4>Foi um dos melhores lugares que eu conheci!</h4>
-            <p class="testimonials-p">
-              1.000000 Ammmmo demais. Se eu pudesse iria todo mês. Excelente em
-              tudooo. Quem não conhece não sabe o que está perdendo, levei um
-              casal de amigos eles amaram, voltaremos mais vezes, refeições top,
-              lugar super limpo, funcionários nota 1.000( merecem até um
-              aumento) kkkkkkkkkk. Super recomendo á todos. bjs
-            </p>
-          </div>
-        </div>
-        <div class="cards-testimonials">
-          <div class="list-testimonials">
-            <p id="text-mobile">
-              <span id="span-rest">Restaurante</span> • 22 de Maio de 2022 -
-              Terraço Itália
-            </p>
-            <h4>Achei Incrível</h4>
-            <p class="testimonials-p">
-              Fomos no almoço no sábado, e neste horário só servem opção do menu
-              degustação com entrada + prato principal + sobremesa. Vale cada
-              centavo! Achei a comida deliciosa, o atendimento gentil e serviço
-              ágil! Tudo que pedimos estava maravilhoso. preço justo para o que
-              entrega. voltaria várias vezes se eu morasse em SP!
-            </p>
-          </div>
-        </div>
-        <div class="cards-testimonials">
-          <div class="list-testimonials">
-            <p id="text-mobile">
-              <span id="span-travel">Viagens</span> • 18 de Julho de 2022 - Foz
-              do Iguaçu
-            </p>
-            <h4>Foi um dos melhores lugares que eu conheci!</h4>
-            <p class="testimonials-p">
-              Achei o passeio muito interessante e não me arrependo de tê-lo
-              colocado em meu cronograma de passeios.
-            </p>
-          </div>
-        </div>
-        <div class="testimonials-button">
-          <button href="#">
-            <img
-              src="./assets/img/icons/arrow-right.svg"
-              alt="Seta para a direita"
-            />
-          </button>
-          <button href="#">
-            <img
-              src="./assets/img/icons/arrow-left.svg"
-              alt="Seta para a esquerda"
-            />
-          </button>
-        </div>
-      </div>
-    </section>
-    <footer class="footer-container">
-      <div class="footer-items">
-        <div class="footer-text">
-          <h3>Os melhores lugares para você conhecer!</h3>
-          <p>
-            Se inscreva em nossa newsletter e fique por dentro dos melhores
-            lugares, os melhores restaurantes e melhores hotéís para você ir!
+    </div>
+  </section>
+  <section class="testimonials">
+    <div class="container-testimonials">
+      <div class="cards-testimonials active">
+        <div class="list-testimonials">
+          <p id="text-mobile">
+            <span>Hotel</span> • 19 de Setembro de 2022 - Hotel Fazenda Poços
+            de Caldas
+          </p>
+          <h4>Foi um dos melhores lugares que eu conheci!</h4>
+          <p class="testimonials-p">
+            1.000000 Ammmmo demais. Se eu pudesse iria todo mês. Excelente em
+            tudooo. Quem não conhece não sabe o que está perdendo, levei um
+            casal de amigos eles amaram, voltaremos mais vezes, refeições top,
+            lugar super limpo, funcionários nota 1.000( merecem até um
+            aumento) kkkkkkkkkk. Super recomendo á todos. bjs
           </p>
         </div>
-        <div class="container-input">
-          <label for="txtEmail">
-            <img src="./assets/img/icons/envelope.svg" alt="icone de email" />
-            <input type="email" id="txtEmail" placeholder="Digite seu e-mail" />
-          </label>
+      </div>
+      <div class="cards-testimonials">
+        <div class="list-testimonials">
+          <p id="text-mobile">
+            <span id="span-rest">Restaurante</span> • 22 de Maio de 2022 -
+            Terraço Itália
+          </p>
+          <h4>Achei Incrível</h4>
+          <p class="testimonials-p">
+            Fomos no almoço no sábado, e neste horário só servem opção do menu
+            degustação com entrada + prato principal + sobremesa. Vale cada
+            centavo! Achei a comida deliciosa, o atendimento gentil e serviço
+            ágil! Tudo que pedimos estava maravilhoso. preço justo para o que
+            entrega. voltaria várias vezes se eu morasse em SP!
+          </p>
+        </div>
+      </div>
+      <div class="cards-testimonials">
+        <div class="list-testimonials">
+          <p id="text-mobile">
+            <span id="span-travel">Viagens</span> • 18 de Julho de 2022 - Foz
+            do Iguaçu
+          </p>
+          <h4>Foi um dos melhores lugares que eu conheci!</h4>
+          <p class="testimonials-p">
+            Achei o passeio muito interessante e não me arrependo de tê-lo
+            colocado em meu cronograma de passeios.
+          </p>
+        </div>
+      </div>
+      <div class="testimonials-button">
+        <button href="#">
+          <img src="./assets/img/icons/arrow-right.svg" alt="Seta para a direita" />
+        </button>
+        <button href="#">
+          <img src="./assets/img/icons/arrow-left.svg" alt="Seta para a esquerda" />
+        </button>
+      </div>
+    </div>
+  </section>
+  <footer class="footer-container">
+    <div class="footer-items">
+      <div class="footer-text">
+        <h3>Os melhores lugares para você conhecer!</h3>
+        <p>
+          Se inscreva em nossa newsletter e fique por dentro dos melhores
+          lugares, os melhores restaurantes e melhores hotéís para você ir!
+        </p>
+      </div>
+      <div class="container-input">
+        <label for="txtEmail">
+          <img src="./assets/img/icons/envelope.svg" alt="icone de email" />
+          <input type="email" id="txtEmail" placeholder="Digite seu e-mail" />
+        </label>
 
-          <button id="button-orange">Se inscrever</button>
-        </div>
+        <button id="button-orange">Se inscrever</button>
       </div>
-      <div class="infos">
-        <img
-          id="logo_mobile"
-          src="./assets/img/icons/logo.svg"
-          alt="Logotipo Guliver Traveller"
-        />
-        <div>
-          <h4>Serviços</h4>
-          <ul>
-            <li><a href="#">Cidades e estados</a></li>
-            <li><a href="#">Hoteis</a></li>
-            <li><a href="#">Restaurantes</a></li>
-          </ul>
-        </div>
-        <div>
-          <h4>Contato</h4>
-          <ul class="contact">
-            <li>
-              <a href="#"
-                ><img
-                  src="./assets/img/icons/envelope2.svg"
-                  alt="icone de e-mail"
-                />
-                travelergulliver@contato.com</a
-              >
-            </li>
-            <li>
-              <a href="#">
-                <img
-                  src="./assets/img/icons/phone.svg"
-                  alt="icone de telefone"
-                />
-                (011) 9999-99999</a
-              >
-            </li>
-          </ul>
-          <div>
-            <a href="#"
-              ><img src="./assets/img/icons/facebook.svg" alt="Ícone facebook"
-            /></a>
-            <a href="#"
-              ><img src="./assets/img/icons/twitter.svg" alt="Icone Twitter"
-            /></a>
-            <a href="#"
-              ><img
-                src="./assets/img/icons/instagram.svg"
-                alt="Icone instagram"
-            /></a>
-          </div>
-        </div>
+    </div>
+    <div class="infos">
+      <img id="logo_mobile" src="./assets/img/icons/logo.svg" alt="Logotipo Guliver Traveller" />
+      <div>
+        <h4>Serviços</h4>
+        <ul>
+          <li><a href="#">Cidades e estados</a></li>
+          <li><a href="#">Hoteis</a></li>
+          <li><a href="#">Restaurantes</a></li>
+        </ul>
       </div>
-      <div class="rodape_direitos">
-        <h5><i>©2022 travelergulliver.com.br</i></h5>
-        <h5><i>Todos os direitos reservados</i></h5>
-        <a target="_blank" href="./cookies.html"><i>Políticas de privacidade</i></a>
-      </div>
-    </footer>
-    <div class="popup-login">
-      <div class="container-login">
-        <div class="closeIcon">
-          Login Gulliver Traveler
-          <img
-            src="./assets/img/icons/close.svg"
-            alt="Icone para fechar janela"
-          />
-        </div>
+      <div>
+        <h4>Contato</h4>
+        <ul class="contact">
+          <li>
+            <a href="#"><img src="./assets/img/icons/envelope2.svg" alt="icone de e-mail" />
+              travelergulliver@contato.com</a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./assets/img/icons/phone.svg" alt="icone de telefone" />
+              (011) 9999-99999</a>
+          </li>
+        </ul>
         <div>
-          <button class="buttonLogin" title="Fechar">
-            <span><img src="./assets/img/google.png" alt="" /></span>
-            Entrar com google
-          </button>
-          <div class="text-login">
-            <span>Ou</span>
-          </div>
-        </div>
-        <div class="inputLogin">
-          <input
-            id="email"
-            type="email"
-            name="email"
-            placeholder="Digite seu email"
-          />
-          <input
-            id="password"
-            type="password"
-            name="password"
-            placeholder="sua senha"
-          />
-          <a href="#">Esqueceu sua senha?</a>
-        </div>
-        <div>
-          <button id="btnSubscribe" class="buttonEntrar" type="submmit">
-            Entrar
-          </button>
-        </div>
-        <div class="newAccount">
-          Não Possui conta?
-          <a href="#">Criar Nova Conta</a>
+          <a href="#"><img src="./assets/img/icons/facebook.svg" alt="Ícone facebook" /></a>
+          <a href="#"><img src="./assets/img/icons/twitter.svg" alt="Icone Twitter" /></a>
+          <a href="#"><img src="./assets/img/icons/instagram.svg" alt="Icone instagram" /></a>
         </div>
       </div>
     </div>
-
-    <div
-      id="mapouter"
-    >
-      <div
-        id="gmap_canvasid"
-      >
-        <iframe
-          id="gmap_canvas"
-          src=""
-          frameborder="0"
-          scrolling="no"
-          marginheight="0"
-          marginwidth="0"
-        >
-        </iframe>
-        <br />
+    <div class="rodape_direitos">
+      <h5><i>©2022 travelergulliver.com.br</i></h5>
+      <h5><i>Todos os direitos reservados</i></h5>
+      <a target="_blank" href="./cookies.html"><i>Políticas de privacidade</i></a>
+    </div>
+  </footer>
+  <div class="popup-login">
+    <div class="container-login">
+      <div class="closeIcon">
+        Login Gulliver Traveler
+        <img src="./assets/img/icons/close.svg" alt="Icone para fechar janela" />
+      </div>
+      <div>
+        <button class="buttonLogin" title="Fechar">
+          <span><img src="./assets/img/google.png" alt="" /></span>
+          Entrar com google
+        </button>
+        <div class="text-login">
+          <span>Ou</span>
+        </div>
+      </div>
+      <div class="inputLogin">
+        <input id="email" type="email" name="email" placeholder="Digite seu email" />
+        <input id="password" type="password" name="password" placeholder="sua senha" />
+        <a href="#">Esqueceu sua senha?</a>
+      </div>
+      <div>
+        <button id="btnSubscribe" class="buttonEntrar" type="submmit">
+          Entrar
+        </button>
+      </div>
+      <div class="newAccount">
+        Não Possui conta?
+        <a href="#">Criar Nova Conta</a>
       </div>
     </div>
-    <!-- ========== Script ========== -->
-    <script src="./assets/js/main.js" type="module"></script>
-  </body>
+  </div>
+
+  <div id="mapouter">
+    <div id="gmap_canvasid">
+      <iframe id="gmap_canvas" src="" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+      </iframe>
+      <br />
+    </div>
+  </div>
+  <!-- ========== Script ========== -->
+  <script src="./assets/js/main.js" type="module"></script>
+</body>
+
 </html>
